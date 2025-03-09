@@ -9,7 +9,7 @@ A simple web app tool that can convert your markdown files like readme.md and pr
 
 ## Live
 
-Check out live website at: [readme-to-pdf](https://google.com)
+Check out live website at: [readme-to-pdf](https://readme-to-pdf.netlify.app/)
 
 ### Tech stack
 
