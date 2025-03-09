@@ -19,11 +19,11 @@ const Navbar = ({ setisPrint,setmarkdownText,settextAreaText }) => {
     }
     return (
         <nav className='p-4 flex justify-between'>
-            <h1 className='text-3xl font-bold bg-gradient-to-r from-red-400 to to-white inline bg-clip-text text-transparent'>Readme To Pdf</h1>
+            <h1 className='text-xl md:text-3xl font-bold bg-gradient-to-r from-red-400 to to-white inline bg-clip-text text-transparent'>Readme To Pdf</h1>
             <div className='flex items-center gap-x-2'>
-                <button className='w-auto px-8 bg-gradient-to-r from-red-400 to to-black inline rounded-lg font-bold cursor-pointer'
+                <button className='w-24 shrink-0 px-8 bg-gradient-to-r from-red-400 to to-black inline rounded-lg font-bold cursor-pointer'
                     onClick={() => { setisPrint(true) }}>Print</button>
-                <button className='w-auto px-8 bg-gradient-to-r from-red-400 to to-white inline rounded-lg font-bold cursor-pointer'
+                <button className='w-24 shrink-0 px-8 bg-gradient-to-r from-red-400 to to-white inline rounded-lg font-bold cursor-pointer'
                 onClick={()=>{document.getElementById("myfILE").click()}}>
                     <img src="./upload.svg" alt="upload" />
                     <input type="file" accept='.md' name="fileUpload" id="myfILE" className='hidden' onChange={handleFileChange} />

@@ -54,7 +54,7 @@ const ReadmeEditor = ({ markdownText, setmarkdownText, textAreaText, settextArea
   }
 
   return (
-    <div ref={dropareaRef} className="h-[40vh] md:h-[85vh] rounded p-2"
+    <div ref={dropareaRef} className="h-[40vh] md:h-[85vh] rounded p-2 border"
       onDragEnter={handleDragEnter}
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
